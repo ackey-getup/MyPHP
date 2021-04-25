@@ -24,3 +24,13 @@
       return $result;
     }
   }
+
+  $a001 = new Student("sato");
+  $data = [70, 65, 50, 90, 30];
+  $avg = $a001->cal_avg($data);
+  $result = $a001->judge($avg);
+
+  echo count($data)."\n";
+  echo $a001->name."\n";
+  echo $avg."\n";
+  echo $result."\n";
